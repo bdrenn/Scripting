@@ -9,13 +9,13 @@ function field()
   do 
     for j in 1 2 3;
     do
-      typeset ${i}${j}=" "
+      typeset ${i}${j}="   "
     done
   done
 
   typeset "${INPUT}=${USER}"
 
-  printf "         1          2         3       \n"
+  printf "         1         2         3        \n"
   printf " A       $A1   |   $A2   |   $A3      \n"
   printf "      ------------------------------  \n"
   printf " B       $B1   |   $B2   |   $B3      \n"
